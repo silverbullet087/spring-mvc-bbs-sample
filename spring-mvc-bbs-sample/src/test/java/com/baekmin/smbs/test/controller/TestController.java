@@ -24,6 +24,8 @@ public class TestController {
 	public TestController() {
 		super();
 		logger.info("### TestController()생성자 - Update Test");
+		logger.info("master commit");
+		
 	}
 	
 	@RequestMapping(value = "/create", method = RequestMethod.GET)
