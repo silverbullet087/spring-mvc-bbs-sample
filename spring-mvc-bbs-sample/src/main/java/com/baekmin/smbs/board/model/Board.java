@@ -2,6 +2,9 @@ package com.baekmin.smbs.board.model;
 
 import java.sql.Date;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Board {
 	
 	/**
